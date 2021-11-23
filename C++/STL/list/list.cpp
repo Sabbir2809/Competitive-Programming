@@ -87,24 +87,94 @@ int main(){
     cout << "\n\n";
 
     // 11. insert()
-    list<int>::iterator it;
-    it = l3.begin();
-    advance(it, 0);
+    list<int>::iterator it1;
+    it1 = l3.begin();
+    advance(it1, 0);
 
-    l3.insert(it, 3, 3);
+    l3.insert(it1, 3, 3);
 
     cout << "list: ";
-    for (auto it : l3){
-        cout << it << " ";
+    for (auto it1 : l3){
+        cout << it1 << " ";
     }
-    
+    cout << "\n";
+
     // 12. erase()
-    // 13. remove()
+    list<int>::iterator it2;
+    it2 = l3.begin();
+    advance(it2, 2);
+
+    l3.erase(it2);
+
+    cout << "erase element: ";
+    for (auto it2 : l3){
+        cout << it2 << " ";
+    }
+    cout << "\n";
+
+    // 13. remove(value)
+    l3.remove(3);
+    cout << "remove element: ";
+    for (auto it2 : l3){
+        cout << it2 << " ";
+    }
+    cout << "\n";
+
     // 14. reverse()
+    l3.reverse();
+
+    cout << "reverse list: ";
+    for (auto it2 : l3){
+        cout << it2 << " ";
+    }
+    cout << "\n\n";
+
     // 15. sort()
+    list<int> l4 = {1, 9, 2, 1, 5, 2, 8, 0, 9};
+
+    l4.sort();
+
+    cout << "sort list: ";
+    for(auto it1 : l4){
+        cout << it1 << " ";
+    }
+    cout << "\n";
+
     // 16. unique()
+    l4.unique();
+
+    cout << "unique list: ";
+    for(auto it3 : l4){
+        cout << it3 << " ";
+    }
+    cout << "\n\n";
+
     // 17. swap()
+    list<int> l5 = {100, 200};
+    list<int> l6 = {300, 400};
+
+    l5.swap(l6);
+
+    cout << "swap list l5: ";
+    for(auto it4 : l5){
+        cout << it4 << " ";
+    }
+    cout << "\n";
+    cout << "swap list l6: ";
+    for(auto it4 : l6){
+        cout << it4 << " ";
+    }
+    cout << "\n";
+
     // 18. merge()
+    l5.merge(l6);
+
+    cout << "merge list l5: ";
+    for(auto it4 : l5){
+        cout << it4 << " ";
+    }
+    cout << "\n";
+
 
 return 0;
 }
