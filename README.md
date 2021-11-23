@@ -1,6 +1,6 @@
 # Introduction to Competitive Programming
 
-## Journey to Competitive Programming
+## Journey to the Requirement for Competitive Programming.
 
 - English, Mathematics
 - Learning a Programming Language
@@ -9,7 +9,7 @@
 
 ## Topic Wise Importance?
 
-- Basic Concepts (Language, Input/Output, Useful libraries,Tips and Tricks, Template, Big O Notations, Time Complexity, Logarithm, Recursions)
+- Basic Concepts (Language Selete, Useful libraries for Programing Language, Code Template, Big O Notations, Time Complexity, Logarithm, Recursions)
 - Data Structures (Array, Lisked List, Stack, Queue)
 - Algorithms (Sorting, Searching, Graph, Tree, Dynamic Programming)
 
