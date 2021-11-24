@@ -6,7 +6,7 @@
 using namespace std;
 
 int factorial(long long n){
-    if(n == 1){ // Base Condition
+    if(n == 0){ // Base Condition
         return 1;
     }
     return n * factorial(n - 1); // Hypothesis Design, Induction
