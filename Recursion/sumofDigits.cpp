@@ -21,11 +21,11 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
 
-    long long n;
+    int n;
     cin >> n;
 
     int result = sumOfDigit(n);
     cout << result << "\n";
-    
+
 return 0;
 }
