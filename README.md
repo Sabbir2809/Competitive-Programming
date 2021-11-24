@@ -9,14 +9,14 @@
 
 ### Topic Wise Importance?
 
-- Basic Concepts (Language Selete, Useful libraries, Big O Notations, Time Complexity, Space Complexity Logarithm, Recursions)
+- Basic Concepts (Language Selete, Useful libraries, Big O Notations, Time Complexity, Space Complexity Logarithm, Function, Recursions)
 - Data Structures (Array, Lisked List, Stack, Queue)
 - Algorithms (Sorting, Searching, Graph, Tree, Dynamic Programming)
 
-## 🚀 About Me
+### 🚀 About Me
 I'm a Web Developer. I'm the master of HTML, CSS, Bootstrap, Javascript with React.
 
-  ## Connect with Me
+### Connect with Me
 
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/Web.Dev.Sabbir)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sabbir2809)
