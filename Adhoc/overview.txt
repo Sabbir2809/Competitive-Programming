@@ -1,0 +1,6 @@
+1. 1-D Prefix Sum
+2. Difference Array
+3. 2-D Prefix Sum
+4. Find the Sum of all Subarray of an Array
+5. Permutation
+6. A score of a set is the difference between its maximum value and minimum value. Find sum of scores over all subarray.
