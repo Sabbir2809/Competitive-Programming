@@ -3,8 +3,11 @@
 #### _Journey to the Requirement for Competitive Programming_
 
 ✅ Basic English and Math Concepts
+
 ✅ Good logic sense. Familiarity with at Least One Programming Language
+
 ✅ Learning Basic Data structures & Algorithms
+
 ✅ Regular Practice
 
 ### Topic Wise Importance?
