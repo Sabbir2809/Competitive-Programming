@@ -2,10 +2,18 @@
 
 #### _Journey to the Requirement for Competitive Programming_
 
-- English, Mathematics
-- Learning a Programming Language
-- Learning Basic Data structures & Algorithms
-- Regular Practice
+✅ Basic English and Math Concepts
+✅ Good logic sense. Familiarity with at Least One Programming Language
+✅ Learning Basic Data structures & Algorithms
+✅ Regular Practice
+
+### Topic Wise Importance?
+
+✅ Basic Concepts (Programming Language Selete, Useful Libraries, Function, Recursions)
+
+✅ Data Structures (Array, Lisked List, Stack, Queue)
+
+✅ Algorithms (Sorting, Searching, Graph, Tree, Dynamic Programming)
 
 ## Programming Fundamentals
 
@@ -126,11 +134,6 @@
 
 ✅ Recursion
 
-## Topic Wise Importance?
-
-- Basic Concepts (Language Selete, Useful libraries, Big O Notations, Time Complexity, Space Complexity Logarithm, Function, Recursions)
-- Data Structures (Array, Lisked List, Stack, Queue)
-- Algorithms (Sorting, Searching, Graph, Tree, Dynamic Programming)
 
 ### 🚀 About Me
 
