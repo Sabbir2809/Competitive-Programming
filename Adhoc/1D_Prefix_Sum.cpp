@@ -1,6 +1,7 @@
 /*
-    Author : Sabbir Hossain
-    Problem_Name : 1-D Prefix Sum.
+    Author: Sabbir Hossain
+    Problem_Name: 1-D Prefix Sum.
+    Time Compelexity: O(Q+N)
 */
 #include<bits/stdc++.h>
 using namespace std;
@@ -17,12 +18,13 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
-    int pre[n+1];
-    pre[0] = arr[0];
 
+    int prefixSum[n+1];
+    prefixSum[0] = arr[0];
     for(int i = 1; i < n; i++){
-        pre[i] = pre[i-1] + arr[i];
+        prefixSum[i] = prefixSum[i-1] + arr[i];
     }
+
     int query;
     cin >> query;
 
@@ -31,9 +33,9 @@ int main(){
         cin >> l >> r;
 
         if(l == 0){
-            cout << pre[r] << endl;
+            cout << prefixSum[r] << endl;
         }else{
-            cout << pre[r] - pre[l-1] << endl;
+            cout << prefixSum[r] - prefixSum[l-1] << endl;
         }
     }
     
