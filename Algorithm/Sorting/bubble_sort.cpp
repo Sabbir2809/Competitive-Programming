@@ -1,6 +1,8 @@
 /*
     Author: Sabbir Hossain
     Problem_Name: Bubble Sort
+        - Runtime Complexity: O(n^2)
+        - Space Complexity  : O(1)
 */
 #include<bits/stdc++.h>
 using namespace std;
@@ -12,9 +14,9 @@ void bubbleSort(int n, int arr[]){
     for(i = 0; i < size-1; i++){ // n
         swap = 0;
         for(j = 0; j < size-1-i; j++){ // n
-            counter++; //loop counter
+            counter++; // loop counter
             if(arr[j] > arr[j+1]){
-                //swap two numbers
+                // swap two numbers
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
@@ -55,6 +57,5 @@ return 0;
     -2  12  3  10
     -2  3  12  10
     -2  3  10  12
--Runtime Complexity: O(n^2)
--Space Complexity  : O(1)
+
 */
