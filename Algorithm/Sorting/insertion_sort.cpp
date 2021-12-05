@@ -7,6 +7,7 @@ using namespace std;
 
 int i, value, hole;
 void sort(int n,int a[]){
+
     for(i = 1; i < n; i++){ //n
         value = a[i];
         hole = i;
@@ -32,7 +33,6 @@ int main(){
     for(i = 0; i < n; i++){
         scanf("%d",&a[i]);
     }
-
     sort(n,a);
 
     if (n % 2 == 0){
