@@ -9,7 +9,7 @@ const double PI = acos(-1.0);
 #define endl '\n';
 
 void solve(){
-
+    
 }
 
 int main(){
@@ -17,6 +17,6 @@ int main(){
     // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
     solve();
-    
+
 return 0;
 }
